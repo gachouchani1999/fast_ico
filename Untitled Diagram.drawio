@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net" modified="2022-02-21T16:23:29.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="-hj-S43ybmXG9M1dlMCD" version="16.5.6" type="github">
+  <diagram id="BNxvY86upk_4Lp0FqjYM" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-1" value="Company" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.367;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="170" as="sourcePoint" />
+            <mxPoint x="417" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-3" value="Inputs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-4" value="1. Name&lt;br&gt;2. Symbol&lt;br&gt;3. Decimals&lt;br&gt;4. Logo&lt;br&gt;5. Token Supply" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="375" y="160" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-4" target="Gw_KIUM0eiE-TZq2ubpY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="320" as="sourcePoint" />
+            <mxPoint x="480" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-8" value="Instantiates FICO token smart contract" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="450" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-10" value="Registers in Token Registry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.65;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-4" target="Gw_KIUM0eiE-TZq2ubpY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="350" as="sourcePoint" />
+            <mxPoint x="340" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-12" value="Instantiates FICO Reserve Contract for token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="450" as="sourcePoint" />
+            <mxPoint x="300" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-14" value="Allows users to reserve presale of token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="330" as="sourcePoint" />
+            <mxPoint x="640" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-16" value="Initial Balances: Owner: Token Supply -3%&lt;br&gt;Fast ICO: 3% of total supply" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="Gw_KIUM0eiE-TZq2ubpY-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="210" as="sourcePoint" />
+            <mxPoint x="505" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-18" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-18" target="Gw_KIUM0eiE-TZq2ubpY-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="570" as="sourcePoint" />
+            <mxPoint x="170" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-21" value="Reserves" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-22" value="ICO Price" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-23" value="Sends Native tokens to SC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="540" as="sourcePoint" />
+            <mxPoint x="300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-25" value="Store reserves in HashMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.7;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-1" target="Gw_KIUM0eiE-TZq2ubpY-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="140" as="sourcePoint" />
+            <mxPoint x="350" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="650" as="sourcePoint" />
+            <mxPoint x="300" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-33" value="Queried after ICO time complete&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="690" as="sourcePoint" />
+            <mxPoint x="430" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-35" value="Execute Mutiple Transfer of Tokens to reserved users&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="80" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-37" value="ICO total supply" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="770" as="sourcePoint" />
+            <mxPoint x="490" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-40" value="Sends % of funds to LP (input) and locks for X period of time" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-41" value="&lt;font style=&quot;font-size: 22px&quot;&gt;FAST ICO FRONTEND&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="840" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-42" value="Landing Page with list of top tokens (backend algorithm)" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="100" y="890" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="990" as="sourcePoint" />
+            <mxPoint x="330" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-44" value="Can click on each token to see more details of each" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="898.75" width="132.5" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=22;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1100" as="sourcePoint" />
+            <mxPoint x="394" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-46" value="Comments for users to give their opinion (and avoid scams)" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="1100" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-48" value="" style="endArrow=classic;html=1;rounded=0;fontSize=22;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1120" as="sourcePoint" />
+            <mxPoint x="175" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-49" value="Backend algorithms assess comments and ratings to provide top tokens" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="1100" width="175" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=22;exitX=1.015;exitY=0.455;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Gw_KIUM0eiE-TZq2ubpY-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="980" as="sourcePoint" />
+            <mxPoint x="540" y="959" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gw_KIUM0eiE-TZq2ubpY-51" value="Search of All ICO tokens listed on FAST ICO" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="540" y="898.75" width="130" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
